@@ -1,0 +1,9 @@
+[class*="col-"] {
+  background-color: pink;
+  text-align: center;
+  border: 1px solid black;
+}
+
+span{
+    line-height: 200px;
+}
