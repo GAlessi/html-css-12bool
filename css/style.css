@@ -1,19 +1,19 @@
 [class*="col-"] {
-  background-color: pink;
-  text-align: center;
-  border: 1px solid black;
-  line-height: 200px;
- }
+    background-color: pink;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 200px;
+}
 
 body{
     padding: 50px 0;
 }
 
-.container .row:last-child > [class*="col-"]{
+.container > .row >[class*="col-"]{
     padding: 5px;
 }
 
-[class*="col-"].nested{
+[class*="col-"] .row > [class*="col-"]{
     border: 1px solid white;
     background-color: rgb(255,131,131);
 }
