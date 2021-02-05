@@ -9,7 +9,7 @@ body{
     padding: 50px 0;
 }
 
-.row:last-child > [class*="col-"]{
+.container .row:last-child > [class*="col-"]{
     padding: 5px;
 }
 
