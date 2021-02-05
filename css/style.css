@@ -9,10 +9,6 @@ body{
     padding: 50px 0;
 }
 
-{
-    background-color: blue;
-}
-
 .row:last-child > [class*="col-"]{
     padding: 5px;
 }
